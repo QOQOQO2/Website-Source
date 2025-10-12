@@ -3,6 +3,7 @@ body {
   color: #e0e0e0;
   font-family: 'Cascadia Code', Monospace;
   margin: 2rem;
+  position: relative;
 }
 
 h1 {
@@ -23,5 +24,6 @@ a:hover {
   position: absolute;
   top: 8px;
   right: 8px;
+  margin: -2rem;
   z-index: 10;
 }
