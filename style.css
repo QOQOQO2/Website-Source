@@ -10,6 +10,10 @@ h1 {
   color: #ffffff;
 }
 
+h2 {
+  color: #dfdfdf;
+}
+
 a {
   color: #80cbc4;
   text-decoration: none;
@@ -18,12 +22,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-.hit-counter {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  margin: -2rem;
-  z-index: 10;
 }
