@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Page Not Found :(</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body style="text-align: center; font-family: sans-serif;">
+  <h1 style="margin: 0 auto; width: 50%; margin-bottom: 2rem;">404 Page Not Found</h1>
+  <p style="margin: 0 auto; width: 100%;">No page found at URL: <span id="url"></span></p>
+  <!-- URL detector -->
+  <script>
+    document.getElementById("url").textContent = window.location.href;
+  </script>
+</body>
+</html>
