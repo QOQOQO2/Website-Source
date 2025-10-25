@@ -10,12 +10,17 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 </head>
 <body>
+  <p>
+  \[Approximation\:of\:the\:Gamma\:function\:I\:made\]
+  </p>
   <h2>
   \[
-  \Gamma(z)=\int_{0}^{\infty}t^{z-1}e^{-t}\,dt
+  \Gamma(z)
+  = \int_{0}^{\infty} t^{z-1} e^{-t} \, dt
+  = \lim_{k \, \to \, \infty} \sqrt{2\pi}\,(z+k)^{z-\frac{1}{2}} e^{-z-k} \!
+  \left(\prod_{n=0}^{k-1} \frac{z+k}{z+n}.\right)
   \]
   </h2>
-  <br>
   <details>
     <summary>
       <span style="font-size: 1.5rem; font-weight: bold; color: #dfdfdf;">Links to Stuff</span>
