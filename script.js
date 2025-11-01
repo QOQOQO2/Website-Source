@@ -6,7 +6,7 @@ function detectOS() {
   if (/Android/i.test(ua)) return 'Android';
   if (/iPhone|iPad|iPod/i.test(ua)) return 'iOS';
   if (/Linux/i.test(platform) || /Linux/i.test(ua)) return 'Linux';
-  return 'Unknown';
+  return 'OS I didn\'t account for';
 }
 
 const osHeading = document.createElement('h1');
