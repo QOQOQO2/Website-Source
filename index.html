@@ -8,8 +8,14 @@
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script>
+    fetch("https://myip.wtf/text")
+      .then(r => r.text())
+      .then(t => document.getElementById("ip").textContent = t);
+  </script>
 </head>
 <body>
+  <p><pre id="ip" style="font-size: 8px;"></pre></p>
   <p>
   \[Approximation\:of\:the\:Gamma\:function\:I\:made\]
   </p>
@@ -28,6 +34,7 @@
     </summary>
     <br>
     <a href="https://www.github.com/QOQOQO2/Dot-files" target="_blank" rel="noopener noreferrer">Dot Files</a><br>
+    <a href="./stuff/bio/" target="_blank" rel="noopener noreferrer">Bio</a><br>
   </details>
   <br>
   <details>
@@ -37,5 +44,6 @@
     <br>
     <a href="./stuff/minecraft/index.html">Very Real Minecraft</a><br>
   </details>
+</script>
 </body>
 </html>

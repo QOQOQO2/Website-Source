@@ -1,0 +1,34 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Cascadia Code', Monospace;
+    margin: 2rem;
+    position: relative;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #dfdfdf;
+}
+
+h4 {
+    color: #c0c0c0;
+}
+
+h1, h2, h3, h4{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
