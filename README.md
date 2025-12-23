@@ -1,1 +1,1 @@
-Source code for [website](http://qoqoqo2.mywire.org/)
+Source code for [website](https://qoqoqo2.mywire.org/)
